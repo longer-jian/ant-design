@@ -4,7 +4,7 @@ import { Flex, Progress } from 'antd';
 const App: React.FC = () => (
   <Flex gap="small" vertical>
     <Progress
-      percent={0}
+      percent={1}
       percentPosition={{ align: 'center', type: 'inner' }}
       size={[200, 20]}
       strokeColor="#E6F4FF"
